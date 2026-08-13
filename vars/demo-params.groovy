@@ -1,5 +1,5 @@
-def call(String name) {
+def call(Map params) {
   node() {
-    println "Hello ${name}!"
+    println "Hello ${params.name}!"
   }
 }
